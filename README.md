@@ -57,6 +57,22 @@ This will open a menu where you can change display modes, colors, and other sett
 
 ### GUI
 
+
+## Changes in this fork / Änderungen in diesem Fork
+
+- **2026-10-09:** Fixed `digit_mask` in `src/controller.py` for the small layout
+  (Thermalright Assassin X 120 R Digital, USB `0416:8001`). Digits were all shown as `8`;
+  the mask now follows the segment order `f, a, b, g, e, d, c`.
+- Verified on Linux (Ubuntu, Python 3.10, NVIDIA GPU): CPU/GPU temperature and usage display correctly.
+- Tip: if the GPU shows 0, check `nvidia-smi`. A "Driver/library version mismatch" after an update
+  needs a reboot.
+
+## Credits
+
+- Original controller: [MathieuxHugo/digital_thermal_right_lcd](https://github.com/MathieuxHugo/digital_thermal_right_lcd)
+- Peerless Assassin adaption and CLI/GUI: [raffa0001/Peerless_assassin_and_CLI_UI](https://github.com/raffa0001/Peerless_assassin_and_CLI_UI)
+- Assassin X 120 R Digital fix: [bagueDev](https://github.com/bagueDev)
+
 A graphical interface is available for live preview and color customization.
 To run the GUI:
 ```bash
