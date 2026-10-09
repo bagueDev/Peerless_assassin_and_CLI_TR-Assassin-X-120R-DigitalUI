@@ -19,6 +19,10 @@ It provides a Python controller to display system metrics (CPU/GPU temp/usage) a
 - GUI for live display preview and color configuration.
 
 ## Assassin X 120 R Digital (small layout)
+<img width="320" height="320" alt="Bildschirmfoto vom 2026-10-09 12-27-54" src="https://github.com/user-attachments/assets/54341985-464c-4a7d-aaa7-f15cf927b899" />
+<img width="320" height="320" alt="Bildschirmfoto vom 2026-10-09 12-26-27" src="https://github.com/user-attachments/assets/308c1fcf-330f-48b4-91fb-a21017e80529" />
+
+
 
 - USB ID `0416:8001`, 31 LEDs (small layout). Set `"layout_mode": "small"` in `config.json`.
 - Fix: `digit_mask` in `src/controller.py` was all ones, so every digit showed as `8`.
